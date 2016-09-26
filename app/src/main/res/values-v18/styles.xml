@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <style name="ProgressBar">
+                <item name="android:indeterminateOnly">true</item>
+                <item name="android:indeterminateDrawable">@drawable/progressstyleshape</item>
+                <item name="android:indeterminateBehavior">repeat</item>
+                <item name="android:indeterminateDuration">3500</item>
+                <item name="android:minWidth">60dip</item>
+                <item name="android:maxWidth">60dip</item>
+                <item name="android:minHeight">60dip</item>
+                <item name="android:maxHeight">60dip</item>
+                <item name="android:mirrorForRtl">false</item>
+        </style>
+</resources>

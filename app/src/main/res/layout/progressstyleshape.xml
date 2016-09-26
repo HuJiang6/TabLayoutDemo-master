@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fromDegrees="0"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:toDegrees="360">
+
+    <!--
+    封装一个动画
+    0~360°旋转、锚点位于中心
+    -->
+    <shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:innerRadiusRatio="3"
+        android:shape="ring"
+        android:thicknessRatio="10"
+        android:useLevel="false">
+
+        <gradient
+            android:endColor="#0000ff"
+            android:startColor="#ff0000"
+            android:type="sweep" />
+        <!--
+    android:shape="ring"系统默认矩形，这里修改为环形
+    android:innerRadiusRatio=""表示内半径比：半径/比值，这个值越大，环形的外环越细
+     android:thicknessRatio="10"表示厚度比
+    android:useLevel="false"表示让进度条环形不切分，完全显示
+     gradint表示颜色的渐变
+    android:type="sweep" 表示扫射的效果
+
+        -->
+
+    </shape>
+
+</rotate>
